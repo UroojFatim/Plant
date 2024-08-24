@@ -1,0 +1,170 @@
+[
+  {
+      "id": 1,
+      "name": "Grey Star Calathea",
+      "category": "indoor",
+      "price": 500,
+      "image": "https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/12/10-3-600x713.jpg",
+      "originCountry": "Brazil",
+      "waterCycle": "Moderate",
+      "scientificName": "Calathea makoyana",
+      "additionalImages": [
+          "https://example.com/calthea1.jpg",
+          "https://example.com/calthea2.jpg"
+      ]
+  },
+  {
+      "id": 2,
+      "name": "Italian Stone Pine",
+      "category": "indoor",
+      "price": 330,
+      "image": "https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/12/10-1-600x713.jpg",
+      "originCountry": "Italy",
+      "waterCycle": "Low",
+      "scientificName": "Pinus pinea",
+      "additionalImages": [
+          "https://example.com/pine1.jpg",
+          "https://example.com/pine2.jpg"
+      ]
+  },
+  {
+      "id": 3,
+      "name": "Jade Succulent",
+      "category": "indoor",
+      "price": 250,
+      "image": "https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/12/4-1-600x713.jpg",
+      "originCountry": "South Africa",
+      "waterCycle": "Low",
+      "scientificName": "Crassula ovata",
+      "additionalImages": [
+          "https://example.com/jade1.jpg",
+          "https://example.com/jade2.jpg"
+      ]
+  },
+  {
+      "id": 4,
+      "name": "Rose Bush",
+      "category": "indoor",
+      "price": 400,
+      "image": "https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/12/14-9-600x713.jpg",
+      "originCountry": "China",
+      "waterCycle": "High",
+      "scientificName": "Rosa spp.",
+      "additionalImages": [
+          "https://example.com/rose1.jpg",
+          "https://example.com/rose2.jpg"
+      ]
+  },
+  {
+      "id": 5,
+      "name": "Lavender",
+      "category": "indoor",
+      "price": 1500,
+      "image": "https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/12/10-6-600x713.jpg",
+      "originCountry": "France",
+      "waterCycle": "Low",
+      "scientificName": "Lavandula angustifolia",
+      "additionalImages": [
+          "https://example.com/lavender1.jpg",
+          "https://example.com/lavender2.jpg"
+      ]
+  },
+  {
+      "id": 6,
+      "name": "Acalypha",
+      "category": "outdoor",
+      "price": 180,
+      "image": "https://i0.wp.com/plant.pk/wp-content/uploads/2020/08/Acalypha-3.jpg?resize=300%2C300&ssl=1",
+      "originCountry": "Pacific Islands",
+      "waterCycle": "Moderate",
+      "scientificName": "Acalypha wilkesiana",
+      "additionalImages": [
+          "https://example.com/acalypha1.jpg",
+          "https://example.com/acalypha2.jpg"
+      ]
+  },
+  {
+      "id": 7,
+      "name": "Tulip",
+      "category": "flowering shrubs",
+      "price": 12,
+      "image": "https://via.placeholder.com/200",
+      "originCountry": "Turkey",
+      "waterCycle": "Moderate",
+      "scientificName": "Tulipa spp.",
+      "additionalImages": [
+          "https://example.com/tulip1.jpg",
+          "https://example.com/tulip2.jpg"
+      ]
+  },
+  {
+      "id": 8,
+      "name": "Bonsai",
+      "category": "herbs",
+      "price": 75,
+      "image": "https://via.placeholder.com/200",
+      "originCountry": "Japan",
+      "waterCycle": "Low",
+      "scientificName": "Ficus retusa",
+      "additionalImages": [
+          "https://example.com/bonsai1.jpg",
+          "https://example.com/bonsai2.jpg"
+      ]
+  },
+  {
+      "id": 9,
+      "name": "Lavender",
+      "category": "outdoor",
+      "price": 15,
+      "image": "https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/12/10-6-600x713.jpg",
+      "originCountry": "France",
+      "waterCycle": "Low",
+      "scientificName": "Lavandula angustifolia",
+      "additionalImages": [
+          "https://example.com/lavender3.jpg",
+          "https://example.com/lavender4.jpg"
+      ]
+  },
+  {
+      "id": 10,
+      "name": "Cactus",
+      "category": "succulents",
+      "price": 18,
+      "image": "https://via.placeholder.com/200",
+      "originCountry": "Mexico",
+      "waterCycle": "Low",
+      "scientificName": "Cactaceae",
+      "additionalImages": [
+          "https://example.com/cactus1.jpg",
+          "https://example.com/cactus2.jpg"
+      ]
+  },
+  {
+      "id": 11,
+      "name": "Tulip",
+      "category": "flowering shrubs",
+      "price": 12,
+      "image": "https://via.placeholder.com/200",
+      "originCountry": "Turkey",
+      "waterCycle": "Moderate",
+      "scientificName": "Tulipa spp.",
+      "additionalImages": [
+          "https://example.com/tulip3.jpg",
+          "https://example.com/tulip4.jpg"
+      ]
+  },
+  {
+      "id": 12,
+      "name": "Bonsai",
+      "category": "herbs",
+      "price": 75,
+      "image": "https://via.placeholder.com/200",
+      "originCountry": "Japan",
+      "waterCycle": "Low",
+      "scientificName": "Ficus retusa",
+      "additionalImages": [
+          "https://example.com/bonsai3.jpg",
+          "https://example.com/bonsai4.jpg"
+      ]
+  }
+]

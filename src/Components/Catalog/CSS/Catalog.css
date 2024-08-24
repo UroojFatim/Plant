@@ -1,0 +1,139 @@
+.catalog-container {
+    display: flex;
+    margin: 20px;
+}
+
+.sorting-section {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.sorting-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sorting-section label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.sorting-section select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* Shop Section */
+.shop-section {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: rgba(245, 245, 245, 0.929);
+    padding: 6rem 5px;
+}
+
+.shop-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.shop-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.category-circle img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.category-circle span {
+    font-size: 16px;
+    color: #333;
+}
+
+
+/* Catalog Grid */
+.catalog-items-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 2.5rem;
+}
+
+.catalog-item {
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.catalog-item:hover {
+    transform: translateY(-5px);
+}
+
+.catalog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.catalog-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.catalog-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+.price-range {
+    margin-top: 20px;
+}
+
+.price-range label {
+    display: block;
+    margin: 5px 0;
+}
+
+.price-range input {
+    width: calc(50% - 10px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+
+
+.sort-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

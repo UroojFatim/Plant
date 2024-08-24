@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd; 
+}
+
+.navbar-left{
+    display: flex;
+    gap: 3rem;
+}
+
+.navbar-left a {
+    text-decoration: none;
+    color: green; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+}
+
+.navbar-left a:hover {
+    text-decoration: underline; /* Simple underline on hover */
+}
+
+.navbar-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-count {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.search-bar {
+    padding: 5px;
+    border-radius: 20px; 
+    border: 1px solid #ccc;
+    width: 200px;
+    padding-left: 35px; 
+}
