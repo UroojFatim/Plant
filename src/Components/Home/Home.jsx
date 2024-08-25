@@ -3,7 +3,9 @@ import Navbar from '../Includes/Navbar';
 import Filter from './Filter';
 import Hero from './Hero';
 import Mission from './Mission';
-// Add other components like Hero, Footer if needed
+import Gallery from './Gallery';
+import FeaturesSection from './FeaturesSection';
+import TestimonialSlider from './TestimonialSlider';
 
 const Home = () => {
   return (
@@ -11,7 +13,11 @@ const Home = () => {
       <Navbar />
       <Hero/> 
       <Filter/>
+      <Gallery/>
+      <TestimonialSlider/>
       <Mission/>
+      <FeaturesSection  
+      />
     </>
   )
 }

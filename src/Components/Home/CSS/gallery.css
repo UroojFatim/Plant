@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery-section {
+  width: 85%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.gallery-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  width: 100%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.item:hover img {
+  transform: scale(1.05);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.2rem;
+  z-index: 1;
+  text-align: center;
+  background: linear-gradient(
+    to bottom, 
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.5)
+  );
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Styles */
+.gallery-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  border: 2px solid green;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #67a148;
+  color: #fff;
+  z-index: 2;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  overflow: hidden;
+}
+
+/* Hover effect utility */
+.gallery-btn-hover-effect::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f4f4;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+.gallery-btn-hover-effect:hover::after {
+  transform: translateX(0);
+}
+
+.gallery-btn-hover-effect:hover {
+  color: #000;
+}
+
+.gallery-btn-text {
+  position: relative;
+  z-index: 1;
+}
+
+.gallery-btn-hover-effect:hover {
+  color: #000;
+}
+
+.gallery-btn-text {
+  position: relative;
+  z-index: 1;
+}
+
+.item:first-of-type {
+  grid-row-end: span 2;
+  height: 100%;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .item {
+    height: 300px;
+  }
+}

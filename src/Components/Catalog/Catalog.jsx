@@ -84,23 +84,23 @@ const Catalog = () => {
                 <h1 className="shop-title">Shop{filter && ` / ${filter.charAt(0).toUpperCase() + filter.slice(1)} Plants`}</h1>
                 <div className="shop-categories">
                     {/* Category circles */}
-                    <div className="category-circle" onClick={() => handleFilterChange('indoor')}>
+                    <div className="shop-category-circle" onClick={() => handleFilterChange('indoor')}>
                         <img src="https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2021/12/categories-10.jpg" alt="Indoor" />
                         <span>Indoor</span>
                     </div>
-                    <div className="category-circle" onClick={() => handleFilterChange('outdoor')}>
+                    <div className="shop-category-circle" onClick={() => handleFilterChange('outdoor')}>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCekc-VnIvJUGsjNBxBoJ1CMBRoxNfVL4CwQ&s" alt="Outdoor" />
                         <span>Outdoor</span>
                     </div>
-                    <div className="category-circle" onClick={() => handleFilterChange('succulents')}>
+                    <div className="shop-category-circle" onClick={() => handleFilterChange('succulents')}>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI8CEfwvRlwJIfleo3rEVAww2M6AJacjFpTRo_9Hqr2D2ckg2bxwMgFS3X55Tt7vLHNmU&usqp=CAU" alt="Succulents" />
                         <span>Succulents</span>
                     </div>
-                    <div className="category-circle" onClick={() => handleFilterChange('flowering shrubs')}>
+                    <div className="shop-category-circle" onClick={() => handleFilterChange('flowering shrubs')}>
                         <img src="https://www.marthastewart.com/thmb/oGRSxlyzX_UQG3pLRa6PlgQGWcY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/15-flowering-shrubs-make-garden-look-like-painting-Camellia-hero-getty-1223-93e5d9c905994b23ab690f41f1972a02.jpg" alt="Flowering Shrubs" />
                         <span>Flowering Shrubs</span>
                     </div>
-                    <div className="category-circle" onClick={() => handleFilterChange('herbs')}>
+                    <div className="shop-category-circle" onClick={() => handleFilterChange('herbs')}>
                         <img src="https://www.southernliving.com/thmb/meAHVDAwG4ArHdPbRcMPrDrg0Eg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1317766855-141c13b245d142e1bfd5f41d5ddd79a7.jpg" alt="Herbs" />
                         <span>Herbs</span>
                     </div>

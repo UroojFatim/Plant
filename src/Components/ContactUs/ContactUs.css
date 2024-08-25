@@ -1,0 +1,136 @@
+  /* Google Map Section */
+  .map-container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    border: 4px solid gray;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding-top: 3.5rem;
+    background-color: #eaeaea;
+  }
+  
+  .contact-container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .contact-heading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-heading h6 {
+    color: green;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .contact-heading h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .contact-heading p {
+    font-size: 1.125rem;
+    color: #616161;
+    margin-bottom: 3rem;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .info-icon {
+    background: green;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .info-icon svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .info-item h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info-item p {
+    color: #616161;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    margin-top: 6rem;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    border: 1px solid #9e9e9e;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: green;
+    color: #fff;
+    border: 1px solid green;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: transparent;
+    color: #000;
+    border-color: #000;
+  }
+  
