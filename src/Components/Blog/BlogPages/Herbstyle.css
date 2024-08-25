@@ -1,0 +1,93 @@
+/* Simple fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .blog-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-section h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    animation: fadeIn 1s ease-in-out;
+    padding: 40px 0px;
+    color: #2c5f2d;
+    font-size: 40px;
+  }
+  
+  .blog-container {
+    display: flex;
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .image-container {
+    flex: 1;
+    margin-right: 20px;
+  
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .text-container {
+    flex: 2;
+  }
+  
+  .text-container h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    animation: fadeIn 1s ease-in-out;
+    color: #2c5f2d;
+    font-size: 26px;
+  }
+  
+  .text-container p {
+    font-size: 1em;
+    line-height: 1.5;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .reply-box {
+    margin-top: 40px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .reply-box textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    height: 100px;
+  }
+  
+  .reply-box button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reply-box button:hover {
+    background-color: #45a049;
+  }
+  
