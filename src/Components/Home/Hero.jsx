@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+
+import { Link } from 'react-router-dom';
 import './CSS/Hero.css';
 import slider1 from '../../assets/Hero/slider1.jpg';
 import slider2 from '../../assets/Hero/slider2.jpg';
@@ -57,7 +59,7 @@ const Hero = () => {
               <h1>{slide.heading}</h1>
               <p>{slide.paragraph}</p>
               <button className="btn btn-green btn-hover-effect">
-                <span className="btn-text">Shop Now</span>
+               <Link to = "/catalog"><span className="btn-text">Shop Now</span></Link> 
               </button>
             </div>
           </div>

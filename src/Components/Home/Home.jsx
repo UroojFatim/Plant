@@ -7,12 +7,14 @@ import Gallery from './Gallery';
 import FeaturesSection from './FeaturesSection';
 import TestimonialSlider from './TestimonialSlider';
 import Footer from "../Includes/Footer"
+import FeedbackForm from '../Feedback/Feedback';
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <Hero/> 
+      <FeedbackForm/>
       <Filter/>
       <Gallery/>
       <TestimonialSlider/>
