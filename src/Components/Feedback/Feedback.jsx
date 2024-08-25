@@ -29,7 +29,6 @@ function FeedbackForm() {
 
     return (
         <div className='Possition'>
-            <Navbar/>
             <button 
                 className="feedbackhome "
                 style={{
