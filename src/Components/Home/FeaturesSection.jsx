@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaHome, FaUndo, FaCreditCard, FaHeadset } from 'react-icons/fa'; // Example icons, replace as needed
-import "./CSS/FeaturesSection.css";
+import "./CSS/featuresSection.css";
 
 const FeaturesSection = () => {
   return (
