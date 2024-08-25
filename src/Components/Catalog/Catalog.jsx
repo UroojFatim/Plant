@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import Navbar from '../Includes/Navbar';
 import './CSS/Catalog.css';
 import plantsData from '../../Data/PlantData.json';
+import Footer from '../Includes/Footer';
 
 const Catalog = () => {
     const [filter, setFilter] = useState('');
@@ -81,6 +82,7 @@ const Catalog = () => {
 
             {/* Shop Section  */}
             <div className="shop-section">
+                <div className="flex-column">
                 <h1 className="shop-title">Shop{filter && ` / ${filter.charAt(0).toUpperCase() + filter.slice(1)} Plants`}</h1>
                 <div className="shop-categories">
                     {/* Category circles */}
@@ -106,6 +108,7 @@ const Catalog = () => {
                     </div>
                 </div>
                 <button className="btn btn-green btn-hover-effect" onClick={handleClearFilter}><span className='btn-text'>← Back</span></button>
+                </div>
             </div>
 
             {/* Other Sections  */}
@@ -159,6 +162,7 @@ const Catalog = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </>
     );
 };

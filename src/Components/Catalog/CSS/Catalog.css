@@ -1,6 +1,15 @@
+/* General Styling (unchanged for laptop and desktop) */
 .catalog-container {
     display: flex;
     margin: 20px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .sorting-section {
@@ -29,16 +38,26 @@
 /* Shop Section */
 .shop-section {
     flex: 1;
-    display: fl;
     text-align: center;
     margin-bottom: 40px;
-    background-color: rgba(245, 245, 245, 0.929);   
+    background-color: rgba(245, 245, 245, 0.929);
     padding: 6rem 10px;
 }
 
 .shop-title {
-    font-size: 36px;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.section-heading::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #333;
+    margin: 15px auto 0 auto;
 }
 
 .shop-categories {
@@ -46,11 +65,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
 
 .shop-category-circle {
-    width: 10%;
     cursor: pointer;
+    width: 10%; 
 }
 
 .shop-category-circle img {
@@ -65,7 +85,6 @@
     font-size: 16px;
     color: #333;
 }
-
 
 /* Catalog Grid */
 .catalog-items-section {
@@ -109,8 +128,6 @@
     color: #555;
 }
 
-
-
 .price-range {
     margin-top: 20px;
 }
@@ -128,8 +145,6 @@
     margin-right: 10px;
 }
 
-
-
 .sort-buttons {
     margin-top: 20px;
     display: flex;
@@ -137,7 +152,9 @@
     gap: 1rem;
 }
 
+/* Media Queries for Responsiveness */
 
+/* Tablet Devices */
 @media (min-width: 768px) {
     .catalog-container {
         flex-direction: row;
@@ -154,6 +171,29 @@
 
     .shop-title {
         font-size: 32px;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+    .shop-categories {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    .shop-category-circle {
+        width: 45%; /* Two circles per row */
+    }
+
+    .shop-category-circle img {
+        width: 100%;
+        height: auto;
+    }
+
+    .shop-title {
+        font-size: 28px;
     }
 }
 

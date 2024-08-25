@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './CSS/TestimonialSlider.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
+import pic from "../../assets/Testimonals/img.JPG";
 
 // Dummy testimonials
 const testimonials = [
@@ -39,7 +40,6 @@ const testimonials = [
     comment: '“Amazing variety and great prices. I will definitely shop here again.”',
     stars: 5
   }
-  
 ];
 
 const TestimonialSlider = () => {
@@ -66,30 +66,27 @@ const TestimonialSlider = () => {
   return (
     <div className="testimonial-slider">
       <h2 className="slider-heading">Our Happy Customers</h2>
-      <div className="slider-wrapper">
-        <div
-          className="slider-content"
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-        >
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="testimonial">
-              <div className="stars">
-                {[...Array(testimonial.stars)].map((_, i) => (
-                  <span key={i} className="star">★</span>
-                ))}
+      <div className="flex">
+        <img src={pic} alt="Succulents" />
+        <div className="slider-wrapper">
+          <div
+            className="slider-content"
+            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          >
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className="testimonial">
+                <div className="stars">
+                  {[...Array(testimonial.stars)].map((_, i) => (
+                    <span key={i} className="star">★</span>
+                  ))}
+                </div>
+                <p className="comment">{testimonial.comment}</p>
+                <p className="name">{testimonial.name}</p>
               </div>
-              <p className="comment">{testimonial.comment}</p>
-              <p className="name">{testimonial.name}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
-      <button className="arrow-button prev" onClick={prevSlide}>
-        <FaChevronLeft />
-      </button>
-      <button className="arrow-button next" onClick={nextSlide}>
-        <FaChevronRight />
-      </button>
     </div>
   );
 }

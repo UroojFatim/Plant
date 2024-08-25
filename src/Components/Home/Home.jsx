@@ -6,6 +6,7 @@ import Mission from './Mission';
 import Gallery from './Gallery';
 import FeaturesSection from './FeaturesSection';
 import TestimonialSlider from './TestimonialSlider';
+import Footer from "../Includes/Footer"
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Mission/>
       <FeaturesSection  
       />
+      <Footer/>
     </>
   )
 }

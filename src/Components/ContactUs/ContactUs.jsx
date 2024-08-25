@@ -1,11 +1,12 @@
 import React from 'react';
 import './ContactUs.css';
 import Navbar from '../Includes/Navbar';
+import Footer from '../Includes/Footer';
 
 const ContactUs = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       {/* Google Map Section */}
       <div className="map-container">
         <iframe
@@ -24,8 +25,8 @@ const ContactUs = () => {
             <h6>CONTACT</h6>
             <h2>Get in Touch</h2>
             <p>
-              Just send us a message and our team will be ready to help you in
-              any case related to Workiee!
+              Send us a message or contact us via email and our team will be
+              ready to assist you with any queries or issues!
             </p>
           </div>
 
@@ -51,7 +52,7 @@ const ContactUs = () => {
               </div>
               <h3>Contact</h3>
               <p>Mobile: +92 344-8302253</p>
-              <p>Mail: eshalmerab1@gmail.com</p>
+              <p>Email: <a href="mailto:eshalmerab1@gmail.com">eshalmerab1@gmail.com</a></p>
             </div>
             <div className="info-item">
               <div className="info-icon">
@@ -83,6 +84,8 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
+
+      <Footer/>
     </div>
   );
 };

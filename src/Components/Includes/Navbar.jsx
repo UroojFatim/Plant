@@ -17,6 +17,7 @@ const Navbar = () => {
                 <Link to="/catalog">Catalog</Link>
                 <Link to="/blog">Blog</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to = "/checkout">Check</Link>
             </div>
             <div className="navbar-center">
                 <Link to="/"><img src={Logo} alt="Logo" className="logo" /></Link>

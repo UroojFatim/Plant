@@ -1,12 +1,19 @@
 import React from 'react'
-import "./CheckOut.css"
+import "./CSS/CheckOut.css"
 import Navbar from '../Includes/Navbar'
+import DeliveryInfo from './DeliveryInfo '
+import OrderSummary from './OrderSummary'
+import Footer from '../Includes/Footer'
 
 const CheckOut = () => {
   return (
     <>
     <Navbar/>
-      CheckOut
+    <div className="flex">
+      <DeliveryInfo/>
+      <OrderSummary/>
+      </div>
+      <Footer/>
     </>
   )
 }
