@@ -2,8 +2,8 @@
 import './Aloverastyle.css';
 
 import Alo1 from '../../../assets/Blog/alo1.jpg';
-import Alo2 from '../../../assets/Blog//alo1.jpg';
-import Alo3 from '../../../assets/Blog/alo1.jpg';
+import Alo2 from '../../../assets/Blog//alo2.jpg';
+import Alo3 from '../../../assets/Blog/alo3.png';
 import Navbar from '../../Includes/Navbar';
 import Footer from '../../Includes/Footer';
 
