@@ -1,5 +1,5 @@
 
-import "./CSS/CheckOut.css"
+import "./CSS/Checkout.css"
 import plant from '../../assets/Home/herbs.jpg';
 
 const OrderSummary = () => {
