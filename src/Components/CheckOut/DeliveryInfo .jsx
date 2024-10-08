@@ -1,5 +1,5 @@
 
-import "./CSS/Checkout.css"
+import "./CSS/Checkout.css";
 import { useState } from 'react';
 
 const DeliveryInfo = () => {
