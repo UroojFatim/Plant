@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import './Blogstyle.css';
 
 // Import images
-import plant1 from '../../assets/Blog/plant1.jpg';
+import plant1 from '../../assets/Blog/Plant1.jpg';
 import plant2 from '../../assets/Blog/Plant2 .jpg';
 import plant3 from '../../assets/Blog/Plant3 .jpg';
-import plant4 from '../../assets/Blog/plant4.jpg';
+import plant4 from '../../assets/Blog/Plant4.jpg';
 import Navbar from '../Includes/Navbar';
 import Footer from '../Includes/Footer';
 
