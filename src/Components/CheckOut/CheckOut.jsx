@@ -1,7 +1,7 @@
 import React from 'react'
 import "./CSS/Checkout.css"
 import Navbar from '../Includes/Navbar'
-import DeliveryInfo from './DeliveryInfo '
+import DeliveryInfo from './DeliveryInfo'
 import OrderSummary from './OrderSummary'
 import Footer from '../Includes/Footer'
 
