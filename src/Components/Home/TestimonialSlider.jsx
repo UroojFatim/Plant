@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './CSS/TestimonialSlider.css';
+import './CSS/testimonialSlider.css';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import pic from "../../assets/Testimonals/img.JPG";
 
